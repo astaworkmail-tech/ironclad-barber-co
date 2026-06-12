@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/ironclad-barber-co/">
+<!-- BASE:END -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Spline+Sans:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+<!-- SEO Meta Tags -->
+<title>Ironclad Barber Co. — Precision Cuts, Fades &amp; Hot-Towel Shaves in Wellington</title>
+<meta name="description" content="Ironclad Barber Co. is a premium Wellington barbershop for precision cuts, skin fades, beard sculpting and hot-towel shaves. Book your chair at our Cuba Street shop." />
+<meta property="og:title" content="Ironclad Barber Co. — Precision Cuts, Fades &amp; Hot-Towel Shaves in Wellington" />
+<meta property="og:description" content="Ironclad Barber Co. is a premium Wellington barbershop for precision cuts, skin fades, beard sculpting and hot-towel shaves. Book your chair at our Cuba Street shop." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Ironclad Barber Co. — Precision Cuts, Fades &amp; Hot-Towel Shaves in Wellington" />
+<meta name="twitter:description" content="Ironclad Barber Co. is a premium Wellington barbershop for precision cuts, skin fades, beard sculpting and hot-towel shaves. Book your chair at our Cuba Street shop." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mqad283d-ph12s";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  var u=new URL(location.href);var found=null;var changed=false;
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{localStorage.setItem(map[p]+slug,v);}catch(e){}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4747');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='EQW9KLr3E';
+  var apiBase='https://paymegpt.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="frame"></div>
+<div class="grain"></div>
+
+<nav>
+  <div class="wrap nav-in">
+    <div class="logo"><span class="mark">IB</span> Ironclad Barber Co.</div>
+    <div class="nav-links">
+      <a href="#services" class="hide-sm">Services</a>
+      <a href="#barbers" class="hide-sm">Barbers</a>
+      <a href="#experience" class="hide-sm">Experience</a>
+      <a href="#book" class="ticket">Book a Chair</a>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="wrap hero">
+    <div>
+      <div class="hero-kicker label"><span class="ast">✳</span> Est. 2017 · Cuba Street, Wellington</div>
+      <h1>Precision cuts, sharp fades &amp; the <span class="red">hot-towel</span> shave.</h1>
+      <p class="sub">Ironclad Barber Co. is a six-chair shop on Cuba Street built for men who want the cut done right — no rush, no guesswork, just craft.</p>
+      <div class="hero-cta">
+        <a href="#book" class="ticket">Book Your Appointment</a>
+        <a href="#services" class="ticket ink">Explore Services</a>
+      </div>
+      <div class="rail">
+        <div class="rail-row"><b>Skin Fade</b><span class="pc">$45</span></div>
+        <div class="rail-row"><b>Beard Sculpt</b><span class="pc">$35</span></div>
+        <div class="rail-row"><b>Hot-Towel Shave</b><span class="pc">$50</span></div>
+      </div>
+    </div>
+    <div class="photo-card">
+      <div class="badge-float">
+        <div class="badge">
+          <svg viewBox="0 0 120 120">
+            <defs><path id="cp" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+            <circle cx="60" cy="60" r="56" fill="none" stroke="#22356F" stroke-width="2"/>
+            <circle cx="60" cy="60" r="50" fill="none" stroke="#22356F" stroke-width="1"/>
+            <text font-family="'Spline Sans Mono',monospace" font-size="9" letter-spacing="3" fill="#22356F"><textPath href="#cp" startOffset="0%">· STRAIGHT RAZOR · MASTER BARBERS · </textPath></text>
+          </svg>
+          <div class="core"><b>IB</b><span>No. 17</span></div>
+        </div>
+      </div>
+      <div class="img" role="img" aria-label="Barber giving a precision haircut at Ironclad Barber Co." style="background-image:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=900&q=80')"></div>
+      <div class="price-stamp"><small>Walk-in cut from</small><b>$30</b></div>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2><span class="ast">✳</span>The Service Menu</h2>
+      <p>Pricing in NZD · cash &amp; card · students 15% off weekdays</p>
+    </div>
+    <div class="svc-grid">
+      <div class="card reveal">
+        <div class="no">SVC—01</div>
+        <h3>The Ironclad Cut</h3>
+        <p>A full consultation, scissor-and-clipper cut tailored to your hair and head shape, finished with a hot towel and style.</p>
+        <div class="price">$40<span class="dur">45 min</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="no">SVC—02</div>
+        <h3>Skin &amp; Taper Fades</h3>
+        <p>Clean, blended fades from a zero skin up to a soft taper. Sharp lines, no harsh jumps — the cut we're known for.</p>
+        <div class="price">$45<span class="dur">45 min</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="no">SVC—03</div>
+        <h3>Beard Sculpt &amp; Line-Up</h3>
+        <p>Razor-defined edges, shaped and balanced to your jaw, hot-towel softened and finished with beard oil.</p>
+        <div class="price">$35<span class="dur">30 min</span></div>
+      </div>
+      <div class="card reveal">
+        <div class="no">SVC—04</div>
+        <h3>Hot-Towel Straight Shave</h3>
+        <p>The full ritual — hot towels, pre-shave oil, a traditional straight-razor shave, cold towel and balm. Pure reset.</p>
+        <div class="price">$50<span class="dur">40 min</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" style="padding-top:0">
+  <div class="wrap">
+    <div class="gallery">
+      <div class="img reveal" role="img" aria-label="Fresh skin fade haircut" style="background-image:url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80')"></div>
+      <div class="img reveal" role="img" aria-label="Barber detailing a beard line-up" style="background-image:url('https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80')"></div>
+      <div class="img reveal" role="img" aria-label="Interior of the Ironclad barbershop" style="background-image:url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80')"></div>
+      <div class="img reveal" role="img" aria-label="Hot-towel straight razor shave in progress" style="background-image:url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80')"></div>
+    </div>
+  </div>
+</section>
+
+<section id="experience" style="background:var(--wash);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2><span class="ast">✳</span>How a Visit Runs</h2>
+      <p>Booked or walk-in · roughly 45 minutes a chair</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><div class="n">01</div><h4>Sit &amp; Consult</h4><p>We talk through what you want, what grows well, and what'll actually hold week to week — before a single clipper touches your head.</p></div>
+      <div class="step reveal"><div class="n">02</div><h4>The Craft</h4><p>Scissor work, fades and razor lines done unhurried. A coffee or a beer while you wait — no conveyor-belt energy here.</p></div>
+      <div class="step reveal"><div class="n">03</div><h4>Finish &amp; Hold</h4><p>Hot towel, style and a product tip so you can rebuild the look at home. You leave looking like you meant it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="barbers">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2><span class="ast">✳</span>The Chairs</h2>
+      <p>Book by name or take the first one free</p>
+    </div>
+    <div class="barbers">
+      <div class="barber reveal">
+        <div class="img" role="img" aria-label="Portrait of Marcus Vea, Master Barber and Founder" style="background-image:url('https://images.unsplash.com/photo-1612817288484-6f916006741a?w=600&q=80')"></div>
+        <h4>Marcus Vea</h4>
+        <div class="role">Master Barber · Founder</div>
+        <p>Opened Ironclad in 2017 after a decade behind the chair. Lives for a clean skin fade and a properly mapped beard.</p>
+      </div>
+      <div class="barber reveal">
+        <div class="img" role="img" aria-label="Portrait of Danny Rou, Senior Barber" style="background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80')"></div>
+        <h4>Danny Rou</h4>
+        <div class="role">Senior Barber</div>
+        <p>The straight-razor specialist. If you want the traditional hot-towel shave done with real ceremony, book Danny.</p>
+      </div>
+      <div class="barber reveal">
+        <div class="img" role="img" aria-label="Portrait of Tomasi Lewa, Barber specializing in textured hair" style="background-image:url('https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80')"></div>
+        <h4>Tomasi Lewa</h4>
+        <div class="role">Barber · Textured Hair</div>
+        <p>Curls, coils and textured cuts are Tomasi's lane. Sharp, modern shapes that work with your hair, not against it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" style="background:var(--wash);border-top:2px solid var(--ink);border-bottom:2px solid var(--ink)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2><span class="ast">✳</span>From the Chair</h2>
+      <p>4.9 average · 380+ Google reviews</p>
+    </div>
+    <div class="quotes">
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Best fade I've had in Wellington, full stop. Marcus actually listens."</p><div class="who">— James T.</div></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"The hot-towel shave is worth every cent. Walked out feeling brand new."</p><div class="who">— Pita R.</div></div>
+      <div class="quote reveal"><div class="stars">★★★★★</div><p>"Finally a barber who knows textured hair. Tomasi is the only chair I book."</p><div class="who">— Andre M.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="book" class="booking" style="padding:0">
+  <div class="wrap">
+    <h2>Your chair's <span class="red">waiting.</span></h2>
+    <p>Open Tue–Sat · 9am–6pm · 184 Cuba Street, Wellington</p>
+    <a href="tel:+6444990017" class="ticket" style="box-shadow:4px 4px 0 var(--support)">Call to Book — 04 499 0017</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo"><span class="mark">IB</span> Ironclad Barber Co.</div>
+        <p class="blurb">A six-chair barbershop on Cuba Street, Wellington. Precision cuts, fades, beard work and traditional hot-towel shaves since 2017.</p>
+      </div>
+      <div>
+        <h5><span class="ast">✳</span> Visit</h5>
+        <p>184 Cuba Street</p>
+        <p>Te Aro, Wellington 6011</p>
+        <p>New Zealand</p>
+      </div>
+      <div>
+        <h5><span class="ast">✳</span> Hours &amp; Contact</h5>
+        <p>Tue–Fri · 9am–6pm</p>
+        <p>Sat · 8am–4pm</p>
+        <a href="tel:+6444990017">04 499 0017</a>
+        <a href="mailto:hello@ironcladbarber.co.nz">hello@ironcladbarber.co.nz</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Ironclad Barber Co.</span>
+      <span>Cuba Street · Wellington · Aotearoa</span>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
