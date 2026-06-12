@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://astaworkmail-tech.github.io/ironclad-barber-co/sitemap.xml
